@@ -61,13 +61,11 @@ h4 {
   flex-direction: column;
 }
 
-.test {
-  position: relative;
-}
-
 img {
-  width: 100px;
+  width: 200px;
   height: auto;
+  border-radius: 15px;
+  box-shadow: 0px 8px 15px 0px #484848;
 }
 
 p {
@@ -134,5 +132,47 @@ button {
 
 #randomize:active {
   transform: translateY(2px);
-  box-shadow: 0px 1px 2px 2px #484848;
+  box-shadow: 0px 1px 2px 0px #484848;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+  }
+  .card-container {
+    width: 90%;
+    height: 70vh;
+  }
+
+  img {
+    width: 40%;
+    position: relative;
+    margin: 2rem auto 0;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  h1 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  .card-container {
+    width: 90%;
+    height: 80vh;
+  }
+
+  img {
+    width: 60%;
+    position: relative;
+    margin: 5rem auto 0;
+  }
+
+  h2,
+  h3,
+  p {
+    font-size: 0.9rem;
+  }
 }
