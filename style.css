@@ -137,6 +137,72 @@ button {
 
 /* Media Queries */
 
+@media screen and (max-width: 1200px) {
+  h1 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  .card-container {
+    width: 70%;
+    height: 80vh;
+  }
+
+  img {
+    width: 40%;
+    margin: 5rem auto 0;
+  }
+
+  h2,
+  h3,
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 1.5rem;
+    margin-top: 10rem;
+  }
+  .card-container {
+    width: 70%;
+    height: 60vh;
+  }
+
+  img {
+    width: 40%;
+    margin: 4rem auto 0;
+  }
+
+  h2,
+  h3,
+  p {
+    font-size: 1.75rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+    margin-top: 5rem;
+  }
+  .card-container {
+    width: 70%;
+    height: 65vh;
+  }
+
+  img {
+    width: 40%;
+    margin: 5rem auto 0;
+  }
+
+  h2,
+  h3,
+  p {
+    font-size: 1rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 1.5rem;
@@ -149,8 +215,29 @@ button {
 
   img {
     width: 40%;
-    position: relative;
     margin: 2rem auto 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  h1 {
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+  .card-container {
+    width: 90%;
+    height: 80vh;
+  }
+
+  img {
+    width: 60%;
+    margin: 5rem auto 0;
+  }
+
+  h2,
+  h3,
+  p {
+    font-size: 0.8rem;
   }
 }
 
@@ -166,7 +253,6 @@ button {
 
   img {
     width: 60%;
-    position: relative;
     margin: 5rem auto 0;
   }
 
@@ -174,5 +260,27 @@ button {
   h3,
   p {
     font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+  .card-container {
+    width: 90%;
+    height: 80vh;
+  }
+
+  img {
+    width: 45%;
+    margin: 5rem auto 0;
+  }
+
+  h2,
+  h3,
+  p {
+    font-size: 0.7rem;
   }
 }
