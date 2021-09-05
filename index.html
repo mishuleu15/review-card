@@ -11,8 +11,8 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script type="module" src="script.js" defer></script>
     <title>Review Card</title>
   </head>
   <body>
@@ -23,25 +23,18 @@
 
     <div class="card-container">
       <div class="container">
-        <img
-          src="https://github.com/john-smilga/javascript-basic-projects/blob/master/03-reviews/setup/person-1.jpeg?raw=true"
-          alt=""
-        />
+        <img id="image" src="" alt="" />
 
-        <h2 id="author">Susan Smith</h2>
-        <h4 id="job">WEB DEVELOPER</h4>
-        <p id="description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ullam
-          eligendi harum a, dolore ad natus porro velit nostrum! Explicabo
-          dignissimos facere commodi in at illo ex expedita. Ab, maiores?
-        </p>
+        <h2 id="author"></h2>
+        <h4 id="job"></h4>
+        <p id="description"></p>
       </div>
       <div class="btn-container">
         <div class="directional-btn">
-          <button><i class="far fa-angle-left"></i></button
-          ><button><i class="far fa-angle-right"></i></button>
+          <button class="btn left"><i class="far fa-angle-left"></i></button
+          ><button class="btn right"><i class="far fa-angle-right"></i></button>
         </div>
-        <button id="randomize">Surprise Me</button>
+        <button id="randomize" class="btn random">Surprise Me</button>
       </div>
     </div>
   </body>
